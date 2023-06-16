@@ -35,7 +35,9 @@ namespace ithomework
 
         }
 
-        private void BtnSayHI_Click(object sender, EventArgs e)
+
+
+        private void BtnSayHI_Click_1(object sender, EventArgs e)
         {
             string name = txtName.Text;
             string EnglishName = txtEnglishName.Text;

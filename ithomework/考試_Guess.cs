@@ -42,7 +42,6 @@ namespace ithomework
         }
         public int answer = 0;
         public Random random = new Random();
-        private int guess;
 
         public void Btn_ShowAnswer_Click(object sender, EventArgs e)
         {

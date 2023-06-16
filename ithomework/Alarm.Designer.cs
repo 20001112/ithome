@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             this.txtTotalTime = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.checkBoxStart = new System.Windows.Forms.CheckBox();
             this.lbl_time = new System.Windows.Forms.Label();
             this.countdownTime = new System.Windows.Forms.Timer(this.components);
@@ -41,23 +40,15 @@
             // txtTotalTime
             // 
             this.txtTotalTime.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtTotalTime.Location = new System.Drawing.Point(680, 105);
+            this.txtTotalTime.Location = new System.Drawing.Point(456, 192);
             this.txtTotalTime.Name = "txtTotalTime";
             this.txtTotalTime.Size = new System.Drawing.Size(117, 27);
             this.txtTotalTime.TabIndex = 0;
             // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.textBox2.Location = new System.Drawing.Point(680, 152);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(117, 27);
-            this.textBox2.TabIndex = 1;
-            // 
             // checkBoxStart
             // 
             this.checkBoxStart.AutoSize = true;
-            this.checkBoxStart.Location = new System.Drawing.Point(304, 213);
+            this.checkBoxStart.Location = new System.Drawing.Point(315, 252);
             this.checkBoxStart.Name = "checkBoxStart";
             this.checkBoxStart.Size = new System.Drawing.Size(77, 16);
             this.checkBoxStart.TabIndex = 2;
@@ -69,7 +60,7 @@
             // 
             this.lbl_time.AutoSize = true;
             this.lbl_time.Font = new System.Drawing.Font("新細明體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.lbl_time.Location = new System.Drawing.Point(289, 151);
+            this.lbl_time.Location = new System.Drawing.Point(316, 141);
             this.lbl_time.Name = "lbl_time";
             this.lbl_time.Size = new System.Drawing.Size(76, 21);
             this.lbl_time.TabIndex = 3;
@@ -96,7 +87,6 @@
             this.ClientSize = new System.Drawing.Size(1005, 539);
             this.Controls.Add(this.lbl_time);
             this.Controls.Add(this.checkBoxStart);
-            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.txtTotalTime);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Alarm";
@@ -111,7 +101,6 @@
         #endregion
 
         private System.Windows.Forms.TextBox txtTotalTime;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.CheckBox checkBoxStart;
         private System.Windows.Forms.Label lbl_time;
         private System.Windows.Forms.PictureBox pictureBox1;

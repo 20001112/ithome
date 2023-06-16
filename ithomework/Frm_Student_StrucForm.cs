@@ -66,21 +66,21 @@ namespace ithomework
             {
                 MaxGrade = "最高成績的科目為國文" + emp.Chinese;
             }
-            else if (min ==emp.English)
+            else if (max == emp.English)
             {
                 MaxGrade = "最高成績的科目為英文" + emp.English;
             }
             if(min ==emp.Math)
             {
-                MinGrade = "最高成績的科目為數學" + emp.Math;
+                MinGrade = "最低成績的科目為數學" + emp.Math;
             }
             else if (min == emp.Chinese)
             {
-                MinGrade = "最高成績的科目為國文" + emp.Chinese;
+                MinGrade = "最低成績的科目為國文" + emp.Chinese;
             }
             else if (min == emp.English)
             {
-                MinGrade = "最高成績的科目為英文" + emp.English;
+                MinGrade = "最低成績的科目為英文" + emp.English;
             }
 
 

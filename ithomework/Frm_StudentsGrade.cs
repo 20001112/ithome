@@ -23,7 +23,6 @@ namespace ithomework
         private int chineseGrade = 0;
         private int mathGrade = 0;
         private int englishGrade = 0;
-        private string EmpString = "";
         private int totalChineseGrade = 0;
         private int totalMathGrade = 0;
         private int totalEnglishGrade = 0;

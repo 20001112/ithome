@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_StudentsGrade));
             this.Lab_Name = new System.Windows.Forms.Label();
             this.Lab_Chinese = new System.Windows.Forms.Label();
             this.Lab_Math = new System.Windows.Forms.Label();
@@ -229,9 +230,8 @@
             this.Lab_EnglishMinGrade2.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Lab_EnglishMinGrade2.Location = new System.Drawing.Point(293, 108);
             this.Lab_EnglishMinGrade2.Name = "Lab_EnglishMinGrade2";
-            this.Lab_EnglishMinGrade2.Size = new System.Drawing.Size(39, 16);
+            this.Lab_EnglishMinGrade2.Size = new System.Drawing.Size(0, 16);
             this.Lab_EnglishMinGrade2.TabIndex = 23;
-            this.Lab_EnglishMinGrade2.Text = "總分";
             // 
             // Lab_MathMinGrade2
             // 
@@ -239,9 +239,8 @@
             this.Lab_MathMinGrade2.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Lab_MathMinGrade2.Location = new System.Drawing.Point(197, 108);
             this.Lab_MathMinGrade2.Name = "Lab_MathMinGrade2";
-            this.Lab_MathMinGrade2.Size = new System.Drawing.Size(39, 16);
+            this.Lab_MathMinGrade2.Size = new System.Drawing.Size(0, 16);
             this.Lab_MathMinGrade2.TabIndex = 22;
-            this.Lab_MathMinGrade2.Text = "總分";
             // 
             // Lab_ChineseMinGrade2
             // 
@@ -249,9 +248,8 @@
             this.Lab_ChineseMinGrade2.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Lab_ChineseMinGrade2.Location = new System.Drawing.Point(110, 108);
             this.Lab_ChineseMinGrade2.Name = "Lab_ChineseMinGrade2";
-            this.Lab_ChineseMinGrade2.Size = new System.Drawing.Size(39, 16);
+            this.Lab_ChineseMinGrade2.Size = new System.Drawing.Size(0, 16);
             this.Lab_ChineseMinGrade2.TabIndex = 21;
-            this.Lab_ChineseMinGrade2.Text = "總分";
             // 
             // Lab_EnglishMaxGrade2
             // 
@@ -259,9 +257,8 @@
             this.Lab_EnglishMaxGrade2.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Lab_EnglishMaxGrade2.Location = new System.Drawing.Point(293, 79);
             this.Lab_EnglishMaxGrade2.Name = "Lab_EnglishMaxGrade2";
-            this.Lab_EnglishMaxGrade2.Size = new System.Drawing.Size(39, 16);
+            this.Lab_EnglishMaxGrade2.Size = new System.Drawing.Size(0, 16);
             this.Lab_EnglishMaxGrade2.TabIndex = 20;
-            this.Lab_EnglishMaxGrade2.Text = "總分";
             // 
             // Lab_MathMaxGrade2
             // 
@@ -269,9 +266,8 @@
             this.Lab_MathMaxGrade2.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Lab_MathMaxGrade2.Location = new System.Drawing.Point(197, 79);
             this.Lab_MathMaxGrade2.Name = "Lab_MathMaxGrade2";
-            this.Lab_MathMaxGrade2.Size = new System.Drawing.Size(39, 16);
+            this.Lab_MathMaxGrade2.Size = new System.Drawing.Size(0, 16);
             this.Lab_MathMaxGrade2.TabIndex = 19;
-            this.Lab_MathMaxGrade2.Text = "總分";
             // 
             // Lab_ChineseMaxGrade2
             // 
@@ -279,9 +275,8 @@
             this.Lab_ChineseMaxGrade2.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Lab_ChineseMaxGrade2.Location = new System.Drawing.Point(110, 79);
             this.Lab_ChineseMaxGrade2.Name = "Lab_ChineseMaxGrade2";
-            this.Lab_ChineseMaxGrade2.Size = new System.Drawing.Size(39, 16);
+            this.Lab_ChineseMaxGrade2.Size = new System.Drawing.Size(0, 16);
             this.Lab_ChineseMaxGrade2.TabIndex = 18;
-            this.Lab_ChineseMaxGrade2.Text = "總分";
             // 
             // Lab_EnglishAgvGrade2
             // 
@@ -289,9 +284,8 @@
             this.Lab_EnglishAgvGrade2.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Lab_EnglishAgvGrade2.Location = new System.Drawing.Point(293, 52);
             this.Lab_EnglishAgvGrade2.Name = "Lab_EnglishAgvGrade2";
-            this.Lab_EnglishAgvGrade2.Size = new System.Drawing.Size(39, 16);
+            this.Lab_EnglishAgvGrade2.Size = new System.Drawing.Size(0, 16);
             this.Lab_EnglishAgvGrade2.TabIndex = 17;
-            this.Lab_EnglishAgvGrade2.Text = "總分";
             // 
             // Lab_MathAgvGrade2
             // 
@@ -299,9 +293,8 @@
             this.Lab_MathAgvGrade2.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Lab_MathAgvGrade2.Location = new System.Drawing.Point(197, 52);
             this.Lab_MathAgvGrade2.Name = "Lab_MathAgvGrade2";
-            this.Lab_MathAgvGrade2.Size = new System.Drawing.Size(39, 16);
+            this.Lab_MathAgvGrade2.Size = new System.Drawing.Size(0, 16);
             this.Lab_MathAgvGrade2.TabIndex = 16;
-            this.Lab_MathAgvGrade2.Text = "總分";
             // 
             // Lab_ChineseAgvgrade2
             // 
@@ -309,9 +302,8 @@
             this.Lab_ChineseAgvgrade2.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Lab_ChineseAgvgrade2.Location = new System.Drawing.Point(110, 52);
             this.Lab_ChineseAgvgrade2.Name = "Lab_ChineseAgvgrade2";
-            this.Lab_ChineseAgvgrade2.Size = new System.Drawing.Size(39, 16);
+            this.Lab_ChineseAgvgrade2.Size = new System.Drawing.Size(0, 16);
             this.Lab_ChineseAgvgrade2.TabIndex = 15;
-            this.Lab_ChineseAgvgrade2.Text = "總分";
             // 
             // Lab_MathTotalGrade2
             // 
@@ -319,9 +311,8 @@
             this.Lab_MathTotalGrade2.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Lab_MathTotalGrade2.Location = new System.Drawing.Point(197, 25);
             this.Lab_MathTotalGrade2.Name = "Lab_MathTotalGrade2";
-            this.Lab_MathTotalGrade2.Size = new System.Drawing.Size(39, 16);
+            this.Lab_MathTotalGrade2.Size = new System.Drawing.Size(0, 16);
             this.Lab_MathTotalGrade2.TabIndex = 14;
-            this.Lab_MathTotalGrade2.Text = "總分";
             // 
             // Lab_EnglishTotalGrade2
             // 
@@ -329,9 +320,8 @@
             this.Lab_EnglishTotalGrade2.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Lab_EnglishTotalGrade2.Location = new System.Drawing.Point(293, 25);
             this.Lab_EnglishTotalGrade2.Name = "Lab_EnglishTotalGrade2";
-            this.Lab_EnglishTotalGrade2.Size = new System.Drawing.Size(39, 16);
+            this.Lab_EnglishTotalGrade2.Size = new System.Drawing.Size(0, 16);
             this.Lab_EnglishTotalGrade2.TabIndex = 13;
-            this.Lab_EnglishTotalGrade2.Text = "總分";
             // 
             // Lab_ChineseTotalGrade2
             // 
@@ -339,9 +329,8 @@
             this.Lab_ChineseTotalGrade2.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Lab_ChineseTotalGrade2.Location = new System.Drawing.Point(108, 25);
             this.Lab_ChineseTotalGrade2.Name = "Lab_ChineseTotalGrade2";
-            this.Lab_ChineseTotalGrade2.Size = new System.Drawing.Size(39, 16);
+            this.Lab_ChineseTotalGrade2.Size = new System.Drawing.Size(0, 16);
             this.Lab_ChineseTotalGrade2.TabIndex = 12;
-            this.Lab_ChineseTotalGrade2.Text = "總分";
             // 
             // Lab_MinGrade2
             // 
@@ -460,9 +449,8 @@
             this.Lab_ScoreName.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.Lab_ScoreName.Location = new System.Drawing.Point(15, 52);
             this.Lab_ScoreName.Name = "Lab_ScoreName";
-            this.Lab_ScoreName.Size = new System.Drawing.Size(66, 19);
+            this.Lab_ScoreName.Size = new System.Drawing.Size(0, 19);
             this.Lab_ScoreName.TabIndex = 7;
-            this.Lab_ScoreName.Text = "NAME";
             this.Lab_ScoreName.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // Lab_ScoreChiese
@@ -472,9 +460,8 @@
             this.Lab_ScoreChiese.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.Lab_ScoreChiese.Location = new System.Drawing.Point(128, 52);
             this.Lab_ScoreChiese.Name = "Lab_ScoreChiese";
-            this.Lab_ScoreChiese.Size = new System.Drawing.Size(19, 19);
+            this.Lab_ScoreChiese.Size = new System.Drawing.Size(0, 19);
             this.Lab_ScoreChiese.TabIndex = 8;
-            this.Lab_ScoreChiese.Text = "1";
             this.Lab_ScoreChiese.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // Lab_ScoreEnglish
@@ -484,9 +471,8 @@
             this.Lab_ScoreEnglish.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.Lab_ScoreEnglish.Location = new System.Drawing.Point(255, 51);
             this.Lab_ScoreEnglish.Name = "Lab_ScoreEnglish";
-            this.Lab_ScoreEnglish.Size = new System.Drawing.Size(71, 19);
+            this.Lab_ScoreEnglish.Size = new System.Drawing.Size(0, 19);
             this.Lab_ScoreEnglish.TabIndex = 9;
-            this.Lab_ScoreEnglish.Text = "English";
             this.Lab_ScoreEnglish.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // Lab_TotalGrade
@@ -496,9 +482,8 @@
             this.Lab_TotalGrade.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.Lab_TotalGrade.Location = new System.Drawing.Point(362, 51);
             this.Lab_TotalGrade.Name = "Lab_TotalGrade";
-            this.Lab_TotalGrade.Size = new System.Drawing.Size(52, 19);
+            this.Lab_TotalGrade.Size = new System.Drawing.Size(0, 19);
             this.Lab_TotalGrade.TabIndex = 10;
-            this.Lab_TotalGrade.Text = "Total";
             this.Lab_TotalGrade.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // Lab_AgvGrade
@@ -508,9 +493,8 @@
             this.Lab_AgvGrade.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.Lab_AgvGrade.Location = new System.Drawing.Point(613, 52);
             this.Lab_AgvGrade.Name = "Lab_AgvGrade";
-            this.Lab_AgvGrade.Size = new System.Drawing.Size(51, 19);
+            this.Lab_AgvGrade.Size = new System.Drawing.Size(0, 19);
             this.Lab_AgvGrade.TabIndex = 11;
-            this.Lab_AgvGrade.Text = "AGV";
             this.Lab_AgvGrade.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // Lab_MinGrade
@@ -520,9 +504,8 @@
             this.Lab_MinGrade.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.Lab_MinGrade.Location = new System.Drawing.Point(533, 52);
             this.Lab_MinGrade.Name = "Lab_MinGrade";
-            this.Lab_MinGrade.Size = new System.Drawing.Size(42, 19);
+            this.Lab_MinGrade.Size = new System.Drawing.Size(0, 19);
             this.Lab_MinGrade.TabIndex = 12;
-            this.Lab_MinGrade.Text = "Min";
             this.Lab_MinGrade.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // Lab_MaxGrade
@@ -532,9 +515,8 @@
             this.Lab_MaxGrade.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.Lab_MaxGrade.Location = new System.Drawing.Point(450, 52);
             this.Lab_MaxGrade.Name = "Lab_MaxGrade";
-            this.Lab_MaxGrade.Size = new System.Drawing.Size(45, 19);
+            this.Lab_MaxGrade.Size = new System.Drawing.Size(0, 19);
             this.Lab_MaxGrade.TabIndex = 13;
-            this.Lab_MaxGrade.Text = "Max";
             this.Lab_MaxGrade.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // LabScoreMath
@@ -554,9 +536,8 @@
             this.Lab_ScoreMath.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.Lab_ScoreMath.Location = new System.Drawing.Point(185, 51);
             this.Lab_ScoreMath.Name = "Lab_ScoreMath";
-            this.Lab_ScoreMath.Size = new System.Drawing.Size(51, 19);
+            this.Lab_ScoreMath.Size = new System.Drawing.Size(0, 19);
             this.Lab_ScoreMath.TabIndex = 15;
-            this.Lab_ScoreMath.Text = "Math";
             this.Lab_ScoreMath.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // panel1
@@ -587,6 +568,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1107, 671);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox2);
@@ -603,6 +586,7 @@
             this.Controls.Add(this.Lab_Math);
             this.Controls.Add(this.Lab_Chinese);
             this.Controls.Add(this.Lab_Name);
+            this.DoubleBuffered = true;
             this.Name = "Frm_StudentsGrade";
             this.Text = "Frm_StudentsGrade";
             this.groupBox2.ResumeLayout(false);

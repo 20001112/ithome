@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Hello));
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtEnglishName = new System.Windows.Forms.TextBox();
             this.txtGender = new System.Windows.Forms.TextBox();
@@ -87,6 +86,7 @@
             this.BtnSayHI.TabIndex = 5;
             this.BtnSayHI.Text = "SayHI!";
             this.BtnSayHI.UseVisualStyleBackColor = true;
+            this.BtnSayHI.Click += new System.EventHandler(this.BtnSayHI_Click_1);
             // 
             // LabName
             // 
@@ -136,9 +136,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::ithomework.Properties.Resources.unnamed;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(796, 450);
+            this.ClientSize = new System.Drawing.Size(767, 516);
             this.Controls.Add(this.LabConstellation);
             this.Controls.Add(this.LabGender);
             this.Controls.Add(this.LabEnglishName);

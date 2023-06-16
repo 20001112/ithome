@@ -86,5 +86,17 @@ namespace ithomework
             currentForm = frm;
             frm.Show();
         }
+
+        private void Btn_小畫家_Click(object sender, EventArgs e)
+        {
+            ShowForm<小畫家>();
+
+        }
+
+        private void Btn_Alarm_Click(object sender, EventArgs e)
+        {
+
+            ShowForm<Alarm>();
+        }
     }
 }

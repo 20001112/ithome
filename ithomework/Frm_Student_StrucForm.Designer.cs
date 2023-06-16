@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Student_StrucForm));
             this.Lab_Name = new System.Windows.Forms.Label();
             this.lab_chinese = new System.Windows.Forms.Label();
             this.Lab_Math = new System.Windows.Forms.Label();
@@ -38,8 +37,8 @@
             this.txt_English = new System.Windows.Forms.TextBox();
             this.txt_Math = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.Btn_List = new System.Windows.Forms.Button();
             this.Lab_grade = new System.Windows.Forms.Label();
+            this.Btn_List = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.Lab_High = new System.Windows.Forms.Label();
             this.Btn_Save = new System.Windows.Forms.Button();
@@ -134,6 +133,14 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "成績";
             // 
+            // Lab_grade
+            // 
+            this.Lab_grade.AutoSize = true;
+            this.Lab_grade.Location = new System.Drawing.Point(28, 34);
+            this.Lab_grade.Name = "Lab_grade";
+            this.Lab_grade.Size = new System.Drawing.Size(0, 16);
+            this.Lab_grade.TabIndex = 2;
+            // 
             // Btn_List
             // 
             this.Btn_List.Location = new System.Drawing.Point(645, 506);
@@ -143,14 +150,6 @@
             this.Btn_List.Text = "最高及最低科目";
             this.Btn_List.UseVisualStyleBackColor = true;
             this.Btn_List.Click += new System.EventHandler(this.Btn_List_Click);
-            // 
-            // Lab_grade
-            // 
-            this.Lab_grade.AutoSize = true;
-            this.Lab_grade.Location = new System.Drawing.Point(28, 34);
-            this.Lab_grade.Name = "Lab_grade";
-            this.Lab_grade.Size = new System.Drawing.Size(0, 16);
-            this.Lab_grade.TabIndex = 2;
             // 
             // groupBox1
             // 
@@ -193,7 +192,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::ithomework.Properties.Resources.iKVseKe;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1011, 668);
             this.Controls.Add(this.Btn_LookSave);
@@ -210,6 +209,7 @@
             this.Controls.Add(this.lab_chinese);
             this.Controls.Add(this.Lab_Name);
             this.Name = "Frm_Student_StrucForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_Student_StrucForm";
             this.Load += new System.EventHandler(this.Frm_Student_StrucForm_Load);
             this.groupBox4.ResumeLayout(false);

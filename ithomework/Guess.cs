@@ -60,7 +60,7 @@ namespace ithomework
                 {
                     Guesss.Min = guess;
                     guessForm.UpdateLabels();
-                    MessageBox.Show($"比較小{Guesss.Min}");
+
 
 
 
@@ -69,7 +69,7 @@ namespace ithomework
                 {
                     Guesss.Max = guess;
                     guessForm.UpdateLabels();
-                    MessageBox.Show($"比較大{Guesss.Max}");
+
 
 
 

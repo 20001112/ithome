@@ -22,42 +22,52 @@ namespace ithomework
 
         private void Btn_add_Click(object sender, EventArgs e)
         {   
-            X=decimal.Parse(textBox1.Text);
-            Y = decimal.Parse(textBox2.Text);
+
             if (!decimal.TryParse(textBox1.Text, out X))
             {
                 MessageBox.Show("請輸入有效的數字");
                 return;
             }
-            if (!decimal.TryParse(textBox2.Text,out Y))
+            else if (!decimal.TryParse(textBox2.Text,out Y))
             {
                 MessageBox.Show("請輸入有效的數字");
                 return;
             }
-            txt_Answer.Text=$"{X+Y}";
+            else
+            {
+                X = decimal.Parse(textBox1.Text);
+                Y = decimal.Parse(textBox2.Text);
+                txt_Answer.Text = $"{X + Y}";
+
+            }
+
         }
 
         private void Btn_reduce_Click(object sender, EventArgs e)
         {
-            X=decimal.Parse(textBox1.Text);
-            Y = decimal.Parse(textBox2.Text);
+
             if (!decimal.TryParse(textBox1.Text, out X))
             {
                 MessageBox.Show("請輸入有效的數字");
                 return;
             }
-            if (!decimal.TryParse(textBox2.Text, out Y))
+            else if (!decimal.TryParse(textBox2.Text, out Y))
             {
                 MessageBox.Show("請輸入有效的數字");
                 return;
             }
-            txt_Answer.Text=$"{X-Y}";
+            else
+            {
+                X = decimal.Parse(textBox1.Text);
+                Y = decimal.Parse(textBox2.Text);
+                txt_Answer.Text = $"{X - Y}";
+
+            }
         }
 
         private void Btn_take_Click(object sender, EventArgs e)
         {
-            X=decimal.Parse(textBox1.Text);
-            Y = decimal.Parse(textBox2.Text);
+
             if (!decimal.TryParse(textBox1.Text, out X))
             {
                 MessageBox.Show("請輸入有效的數字");
@@ -68,25 +78,39 @@ namespace ithomework
                 MessageBox.Show("請輸入有效的數字");
                 return;
             }
-            txt_Answer.Text=$"{X*Y}";
+            else
+            {
+                X = decimal.Parse(textBox1.Text);
+                Y = decimal.Parse(textBox2.Text);
+                txt_Answer.Text = $"{X * Y}";
+            }
 
         }
 
         private void Btn_remove_Click(object sender, EventArgs e)
         {
-            X=decimal.Parse(textBox1.Text);
-            Y = decimal.Parse(textBox2.Text);
+
             if (!decimal.TryParse(textBox1.Text, out X))
             {
                 MessageBox.Show("請輸入有效的數字");
                 return;
             }
-            if (!decimal.TryParse(textBox2.Text, out Y))
+            else if (!decimal.TryParse(textBox2.Text, out Y))
             {
                 MessageBox.Show("請輸入有效的數字");
                 return;
             }
-            txt_Answer.Text = $"{X/Y}";
+            else if(Y==0)
+            {
+                MessageBox.Show("請輸入有效的分母");
+
+            }
+            else
+            {
+                X = decimal.Parse(textBox1.Text);
+                Y = decimal.Parse(textBox2.Text);
+                txt_Answer.Text = $"{X / Y}";
+            }
 
         }
     }

@@ -158,6 +158,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="小畫家.resx">
       <DependentUpon>小畫家.cs</DependentUpon>
@@ -177,6 +178,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\329942cb0ebe2a1399e821f89d71e8b3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0ed288bfcb8cb876647808ecf9be74ad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1896721-668498273206681-1917127059-n-1543410437.JPg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iKVseKe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
