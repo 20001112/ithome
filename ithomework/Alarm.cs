@@ -12,12 +12,13 @@ using System.Windows.Forms.VisualStyles;
 namespace ithomework
 {
     public partial class Alarm : Form
-    {   
+    {
         private Timer countdownTimer;
         private int totalTimeInSeconds;
         private int remainingTimeInSeconds;
+        private bool isCountdownFinished = false;
         public Alarm()
-        {   
+        {
             InitializeComponent();
             InitializeTimer();
             checkBoxStart.CheckedChanged += checkBoxStart_CheckedChanged;
@@ -40,13 +41,14 @@ namespace ithomework
         {
             int minutes = remainingTimeInSeconds / 60;
             int seconds = remainingTimeInSeconds % 60;
+            lbl_time.Text = $"{minutes:D2}:{seconds:D2}";
         }
-        private bool isCountdownFinished = false; // 添加一个标志来记录倒计时是否已结束
 
 
         private void countdownTime_Tick(object sender, EventArgs e)
         {
             lbl_time.Text = DateTime.Now.ToString("HH:mm:ss", new System.Globalization.CultureInfo("zh-TW"));
+
             if (!checkBoxStart.Checked) // 检查倒计时是否已经启动
                 return;
 
@@ -57,6 +59,7 @@ namespace ithomework
             }
             else
             {
+                countdownTime.Enabled = false;
                 countdownTime.Stop();
                 pictureBox1.Image = Image.FromFile(@"C:\Users\User\Desktop\ithome\your_image.png");
 
@@ -68,7 +71,6 @@ namespace ithomework
                     if (result == DialogResult.Yes)
                     {
                         MessageBox.Show("好咖");
-
                     }
                     else if (result == DialogResult.No)
                     {
@@ -85,13 +87,14 @@ namespace ithomework
         {
             if (checkBoxStart.Checked)
             {
-                if (!int.TryParse(txtTotalTime.Text, out totalTimeInSeconds))
+                if (!int.TryParse(txtTotalTime.Text, out totalTimeInSeconds) || totalTimeInSeconds <= 0)
                 {
                     MessageBox.Show("请输入有效的总时间（以秒为单位）！");
                     checkBoxStart.Checked = false; // 输入无效时重置复选框状态
                     return;
                 }
 
+                countdownTime.Stop(); // 先停止计时器
                 remainingTimeInSeconds = totalTimeInSeconds;
                 UpdateDisplay();
                 countdownTime.Start();
@@ -99,7 +102,15 @@ namespace ithomework
             else
             {
                 countdownTime.Stop();
+                remainingTimeInSeconds = 0; // 重置剩余时间为零
+                UpdateDisplay();
             }
-    
-        }       }
+        }
+
+        private void Alarm_Load(object sender, EventArgs e)
+        {
+            lbl_time.Text = DateTime.Now.ToString("HH:mm:ss", new System.Globalization.CultureInfo("zh-TW"));
+
+        }
+    }
 }
